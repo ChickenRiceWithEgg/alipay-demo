@@ -1,0 +1,22 @@
+##game_tb    游戏表
+id
+name                 游戏名
+introduce            游戏介绍
+price                游戏价格
+picture              游戏图片地址
+
+##order_tb   订单表
+id
+user_id              用户ID
+game_id              游戏ID
+game_price           游戏价格
+order_code           订单编号
+order_status         订单状态
+order_create_time    订单创建时间
+order_finish_time    订单完成时间
+pay_price            实际支付金额
+pay_type             支付方式
+accumulated_points   使用的积分数
+accumulated_price    积分抵扣金额
+delivery_type        发货方式
+delivery_time        发货时间
